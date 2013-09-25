@@ -21,16 +21,16 @@
     - http://webdesign.about.com/od/localization/l/blhtmlcodes-cur.htm#codes
 */
 var Constants = {
-  APP_NAME: "Bitstarter", 
+  APP_NAME: "Life Better", 
   FUNDING_TARGET: 10.00,
   FUNDING_UNIT_SYMBOL: "mBTC",
   FUNDING_SI_SCALE: 1000,
-  FUNDING_END_DATE: new Date("September 8, 2013"),
-  PRODUCT_NAME: "Product: Development Version",
-  PRODUCT_SHORT_DESCRIPTION: "One sentence description.",
-  TWITTER_USERNAME: "nodejs",
-  TWITTER_TWEET: "This student crowdfunder looks interesting.",
-  COINBASE_PREORDER_DATA_CODE: "13b56883764b54e6ab56fef3bcc7229c",
+  FUNDING_END_DATE: new Date("September 8, 2014"),
+  PRODUCT_NAME: "Life Better ",
+  PRODUCT_SHORT_DESCRIPTION: "Integrated Productivity Apps to Make Life Better",
+  TWITTER_USERNAME: "xqliu",
+  TWITTER_TWEET: "Check this app called Life Better: Integrated Productivity Apps to Make Life Better.",
+  COINBASE_PREORDER_DATA_CODE: "be64c84e6e10435d6078bb195460c82c",
   days_left: function() {
       return Math.max(Math.ceil((this.FUNDING_END_DATE - new Date()) / (1000*60*60*24)), 0);
   }
